@@ -4,4 +4,4 @@
 # Order is important: the last matching pattern has the highest precedence
 
 # These owners will be the default owners for everything
-* @terraform-az-modules/approvers
+* @anmolnagpal @terraform-az-modules/approvers

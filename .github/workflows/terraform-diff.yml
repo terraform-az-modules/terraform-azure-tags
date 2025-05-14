@@ -4,15 +4,14 @@ on:
     branches:
       - master
     paths:
-      - 'examples/complete/**'
+      - 'examples/**'
 
 jobs:
-# Update 'Job name' and 'terraform_directory' as needed based on the module structure.
-  complete-example:
+  example:
     uses: clouddrove/github-shared-workflows/.github/workflows/tf-pr-checks.yaml@master
     with:
       provider: 'azurerm'
-      terraform_directory: 'examples/complete'
+      terraform_directory: 'examples'
       target_branch: 'master'
     secrets:
       AZURE_CREDENTIALS: ${{ secrets.AZURE_CREDENTIALS }}
