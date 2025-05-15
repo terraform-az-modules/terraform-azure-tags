@@ -6,29 +6,26 @@
 
 
 # Name of this project
-name: Terraform AZURE LABLES
+name : Terraform Azure Module Template
 
 # License of this project
 license: "APACHE"
 
 # Canonical GitHub repo
-github_repo: clouddrove/terraform-azure-labels
+github_repo: terraform-az-modules/terraform-azure-tags
 
 # Badges to display
 badges:
   - name: "Latest Release"
     image: "https://img.shields.io/github/release/clouddrove/terraform-azure-labels.svg"
-    url: "https://github.com/clouddrove/terraform-azure-labels/releases/latest"
-  - name: "tfsec"
-    image: "https://github.com/clouddrove/terraform-azure-labels/actions/workflows/tfsec.yml/badge.svg"
-    url: "https://github.com/clouddrove/terraform-azure-labels/actions/workflows/tfsec.yml"
+    url: "https://github.com/terraform-az-modules/terraform-azure-tags/releases/latest"
   - name: "Licence"
     image: "https://img.shields.io/badge/License-APACHE-blue.svg"
     url: "LICENSE.md"
 
 #  description of this project
 description: |-
-  Terraform module to create LABELS resource on AZURE.
+  Terraform Azure Module Template to create new modules using this as baseline
 
 # extra content
 include:
