@@ -12,9 +12,10 @@ updates:
       interval: "daily"
     open-pull-requests-limit: 3
     assignees:
-      - "clouddrove-ci"
+      - "@terraform-az-modules/crew"
     reviewers:
       - "approvers"
+      - "Crew"
 
   - package-ecosystem: "terraform" # See documentation for possible values
     directory: "/" # Location of package manifests
@@ -22,10 +23,11 @@ updates:
       interval: "weekly"
     # Add assignees
     assignees:
-      - "clouddrove-ci"
+      - "@terraform-az-modules/crew"
     # Add reviewer
     reviewers:
       - "approvers"
+      - "Crew"
     # Allow up to 3 open pull requests for pip dependencies
     open-pull-requests-limit: 3
 
@@ -35,9 +37,10 @@ updates:
       interval: "weekly"
     # Add assignees
     assignees:
-      - "clouddrove-ci"
+      - "@terraform-az-modules/crew"
     # Add reviewer
     reviewers:
       - "approvers"
+      - "Crew"
     # Allow up to 3 open pull requests for pip dependencies
     open-pull-requests-limit: 3

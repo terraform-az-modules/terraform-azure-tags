@@ -1,7 +1,6 @@
 ##-----------------------------------------------------------------------------
-## Labels - Designed to generate consistent label names and tags for resources. You can use terraform-labels to implement a strict naming convention.
+## Outputs
 ##-----------------------------------------------------------------------------
-
 output "id" {
   value       = local.id
   description = "Disambiguated ID."
@@ -40,4 +39,9 @@ output "tags" {
 output "label_order" {
   value       = local.label_order
   description = "Normalized Tag map."
+}
+
+output "deployment_mode" {
+  value       = local.deployment_mode
+  description = "Normalized deployment mode."
 }
