@@ -13,6 +13,6 @@ jobs:
     if: github.actor != 'dependabot[bot]'
     uses: clouddrove/github-shared-workflows/.github/workflows/pr_checks.yml@fix/pr-checks
     secrets: 
-      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      GITHUB_TOKEN: ${{ github.token }}
     with:
       subjectPattern: '^.+$'
