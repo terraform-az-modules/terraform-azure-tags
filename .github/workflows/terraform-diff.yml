@@ -4,14 +4,14 @@ on:
     branches:
       - master
     paths:
-      - 'examples/**'
+      - 'examples/complete/**'
 
 jobs:
   example:
     uses: clouddrove/github-shared-workflows/.github/workflows/tf-pr-checks.yaml@master
     with:
       provider: 'azurerm'
-      terraform_directory: 'examples'
+      terraform_directory: 'examples/complete'
       target_branch: 'master'
     secrets:
       AZURE_CREDENTIALS: ${{ secrets.AZURE_CREDENTIALS }}

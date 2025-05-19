@@ -7,7 +7,7 @@ provider "azurerm" {
 ## Labels module call.
 ##-----------------------------------------------------------------------------
 module "labels" {
-  source        = "./../"
+  source        = "./../.."
   name          = "labels"
   environment   = "test"
   location      = "northeurope"
