@@ -38,7 +38,7 @@ output "tags" {
 
 output "label_order" {
   value       = local.label_order
-  description = "Normalized Tag map."
+  description = "Normalized order of labels."
 }
 
 output "deployment_mode" {
